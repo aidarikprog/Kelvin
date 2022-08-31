@@ -1,0 +1,22 @@
+@media(max-width: 375px){
+    .main__container {
+        flex-wrap: wrap;
+    }
+    .work__body {
+        flex-wrap: wrap;
+    }
+    .main__title{
+        font-size: 32px;
+        line-height: 51px;
+    }
+    .work__column + .work__column {
+        margin-left: 0;
+        margin-top: 60px;
+    }
+    .port__link {
+        padding: 44px 0 55px;
+    }
+    .footer__link + .footer__link {
+        margin-left: 51px;
+    }
+}
